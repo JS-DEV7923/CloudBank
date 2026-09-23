@@ -1,0 +1,74 @@
+# Java / Spring Boot build output
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle local files
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+application-local.properties
+application-dev.yml
+application-dev.yaml
+application-dev.properties
+application-prod.yml
+application-prod.yaml
+application-prod.properties
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets/
+secret/
+credentials/
+*.secret
+*.secrets
+
+# AWS / cloud credentials
+.aws/
+aws-exports.js
+credentials.json
+service-account*.json
+
+# Terraform local state and plans
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Logs
+logs/
+*.log
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Test and coverage output
+coverage/
+*.exec
